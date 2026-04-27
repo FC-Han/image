@@ -1,0 +1,26 @@
+{
+    "model_t_evaluation": {
+        "metric": "R-squared",
+        "mean_score": 0.32004054126912457,
+        "best_params": {
+            "subsample": 0.8,
+            "reg_lambda": 15,
+            "n_estimators": 150,
+            "min_child_weight": 10,
+            "max_depth": 4,
+            "learning_rate": 0.05
+        }
+    },
+    "model_y_evaluation": {
+        "metric": "R-squared",
+        "mean_score": 0.3572422377604097,
+        "best_params": {
+            "subsample": 0.8,
+            "reg_lambda": 15,
+            "n_estimators": 200,
+            "min_child_weight": 3,
+            "max_depth": 5,
+            "learning_rate": 0.1
+        }
+    }
+}
